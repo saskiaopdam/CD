@@ -5,3 +5,6 @@ def test_index():
     
 def test_cow():
     assert main.cow() == 'MOoooOo!'
+    
+def test_donkey():
+    assert main.donkey() == 'Iaah, iaah!!'

@@ -12,3 +12,7 @@ def index():
 @app.route('/cow')
 def cow():
     return 'MOoooOo!'
+
+@app.route('/donkey')
+def donkey():
+    return 'Iaah, iaah!'
