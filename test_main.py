@@ -8,3 +8,6 @@ def test_cow():
     
 def test_donkey():
     assert main.donkey() == 'Iaah, iaah!'
+    
+def test_duck():
+    assert main.duck() == 'Kwa kwa!'

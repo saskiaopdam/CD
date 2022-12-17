@@ -16,3 +16,7 @@ def cow():
 @app.route('/donkey')
 def donkey():
     return 'Iaah, iaah!'
+
+@app.route('/duck')
+def duck():
+    return 'Kwa kwa!'
